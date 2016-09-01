@@ -21,9 +21,17 @@
                                 <rect key="frame" x="255" y="562" width="90" height="30"/>
                                 <state key="normal" title="Make A Post!"/>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xDi-k2-cmb">
+                                <rect key="frame" x="0.0" y="20" width="600" height="534"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="xDi-k2-cmb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3eO-Qg-Ghf"/>
+                            <constraint firstItem="xDi-k2-cmb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="V9Y-FG-wSJ"/>
+                            <constraint firstAttribute="trailing" secondItem="xDi-k2-cmb" secondAttribute="trailing" id="bcj-CP-N66"/>
+                            <constraint firstItem="Fws-4C-VMq" firstAttribute="top" secondItem="xDi-k2-cmb" secondAttribute="bottom" constant="8" id="nTa-ge-k2k"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Fws-4C-VMq" secondAttribute="bottom" constant="8" id="qXg-b7-oGe"/>
                             <constraint firstItem="Fws-4C-VMq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sNt-o8-3ql"/>
                         </constraints>
